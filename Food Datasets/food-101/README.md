@@ -1,8 +1,8 @@
 # Food-101 Dataset Preprocessing
 The Food-101 dataset is a popular benchmark for food image recognition tasks. It contains a total of 101,000 images categorized into 101 different food classes. Each class consists of 750 training images and 250 test images. Here's a breakdown of the key aspects of this 
 
-## dataset:
-- **Source:** Food-101 dataset
+## Dataset
+- **Source:** [Food-101 dataset](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)
 - **Description:** The dataset consists of images of various food items belonging to 101 categories.
 - **Images:** 101,000 total images (750 training images and 250 test images per category)
 - **Classes:** 101 (e.g., pizza, apple, hamburger)
