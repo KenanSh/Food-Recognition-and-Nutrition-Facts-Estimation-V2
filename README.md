@@ -6,8 +6,6 @@ This project tackles the challenges of food image recognition and calorie estima
 - Estimate the calorie content of the food item in the image.
 - By combining these tasks, the model leverages the relationship between ingredients and calories to improve its overall accuracy.
 
----
-
 ## Installation
 
 ### Prerequisites
@@ -38,8 +36,6 @@ If you have a GPU and want to leverage it for faster training, you'll need to in
 - **cuDNN SDK 8.1.0:** Download and install cuDNN from NVIDIA's website (https://developer.nvidia.com/cudnn).
 - **Alternatively,** you can refer to the TensorFlow documentation for GPU setup (https://www.tensorflow.org/install/gpu).
 
----
-
 ## Usage
 This section provides a high-level overview of the project's directory structure and key functionalities.
 
@@ -50,7 +46,6 @@ This section provides a high-level overview of the project's directory structure
 `build_model.ipynb:` The main Jupyter Notebook for defining, building, and training the deep learning models.
 `data_pipeline.ipynb:` A prerequisite script that serializes all datasets into TFRecord files for efficient data feeding into the model during training (executed before build_model.ipynb).
 
----
 
 ### Results 
 The table below provides a template for recording key metrics:
